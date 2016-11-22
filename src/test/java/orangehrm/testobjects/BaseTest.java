@@ -21,14 +21,14 @@ public class BaseTest extends BasePage{
 //        File file = new File("E:/Automation/geckodriver-v0.11.1-win64/geckodriver.exe");
 //        System.setProperty("webdriver.gecko.driver", file.getAbsolutePath());
         driver=new FirefoxDriver();
-        driver.get(LoadProperties.getProperty("URL"));
+        driver.get(LoadProperties.getProperty("URL2"));
         Utils.waitForPageToLoad(20);
         Utils.maximize();
     }
 
     @AfterClass
     public  static void tearDown() {
-        driver.quit();
+       // driver.quit();
 
 //        try {
 //
