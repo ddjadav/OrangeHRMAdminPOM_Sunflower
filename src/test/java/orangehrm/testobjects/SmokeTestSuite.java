@@ -83,4 +83,9 @@ public class SmokeTestSuite extends BaseTest {
         element.click();
        // driver.findElement(By.xpath("//fieldset[2]/input[2]")).click();
     }
+    @Test
+    public void countItemOnPage(){
+
+    }
+
 }
